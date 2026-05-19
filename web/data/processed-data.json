@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-05-19T11:53:28.386758",
+    "generated_at": "2026-05-19T13:05:02.034874",
     "gdp_year": 2022,
     "other_year": 2023,
     "total_countries": 259,
-    "note": "GDP数据基于购买力平价（PPP），单位为国际元（2011年价格）"
+    "note": "GDP数据基于购买力平价（PPP），单位为国际元（2011年价格）。消费数据优先2023年，缺失则回退至2020年。"
   },
   "countries": [
     {
@@ -26,7 +26,9 @@
       "milk": 86.97962,
       "egg": 10.65321,
       "vegetable": 147.49065,
-      "fruit": 86.19234
+      "fruit": 86.19234,
+      "lifeExpectancy": 73.1694,
+      "energy": 21285.768
     },
     {
       "code": "CHN",
@@ -47,7 +49,9 @@
       "milk": 34.77,
       "egg": 22.96,
       "vegetable": 412.71997,
-      "fruit": 114.35999
+      "fruit": 114.35999,
+      "lifeExpectancy": 77.9529,
+      "energy": 33089.07
     },
     {
       "code": "USA",
@@ -68,7 +72,9 @@
       "milk": 226.30002,
       "egg": 15.590001,
       "vegetable": 129.06,
-      "fruit": 169.2
+      "fruit": 169.2,
+      "lifeExpectancy": 79.3043,
+      "energy": 76326.86
     },
     {
       "code": "IND",
@@ -89,7 +95,9 @@
       "milk": 87.43,
       "egg": 4.72,
       "vegetable": 92.91,
-      "fruit": 65.64
+      "fruit": 65.64,
+      "lifeExpectancy": 72.0026,
+      "energy": 7529.4404
     },
     {
       "code": "JPN",
@@ -99,18 +107,20 @@
       "gdpPerCapita": 38268.79,
       "gdpTotal": 4759525652844.13,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 104.89490183,
+        "pig": 22.579475,
+        "beef": 9.400677,
+        "sheep": 0.14874491,
+        "poultry": 27.666552,
+        "other": 0.11899592,
+        "fish": 44.980457
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 61.62997,
+      "egg": 19.753323,
+      "vegetable": 115.26738,
+      "fruit": 44.712715,
+      "lifeExpectancy": 84.7123,
+      "energy": 39064.832
     },
     {
       "code": "DEU",
@@ -131,7 +141,9 @@
       "milk": 226.57999,
       "egg": 15.899999,
       "vegetable": 175.75998,
-      "fruit": 86.67999
+      "fruit": 86.67999,
+      "lifeExpectancy": 81.3777,
+      "energy": 37598.492
     },
     {
       "code": "RUS",
@@ -152,7 +164,9 @@
       "milk": 198.41,
       "egg": 16.83,
       "vegetable": 106.74,
-      "fruit": 73.1
+      "fruit": 73.1,
+      "lifeExpectancy": 73.1541,
+      "energy": 60237.03
     },
     {
       "code": "IDN",
@@ -173,7 +187,9 @@
       "milk": 14.95,
       "egg": 20.87,
       "vegetable": 49.21,
-      "fruit": 85.38
+      "fruit": 85.38,
+      "lifeExpectancy": 71.1457,
+      "energy": 9904.8125
     },
     {
       "code": "BRA",
@@ -194,7 +210,9 @@
       "milk": 163.15,
       "egg": 12.73,
       "vegetable": 52.4,
-      "fruit": 106.77
+      "fruit": 106.77,
+      "lifeExpectancy": 75.8482,
+      "energy": 18252.027
     },
     {
       "code": "GBR",
@@ -215,7 +233,9 @@
       "milk": 236.72998,
       "egg": 10.779999,
       "vegetable": 165.66998,
-      "fruit": 92.08999
+      "fruit": 92.08999,
+      "lifeExpectancy": 81.3015,
+      "energy": 28094.684
     },
     {
       "code": "FRA",
@@ -236,7 +256,9 @@
       "milk": 258.69998,
       "egg": 13.139998,
       "vegetable": 112.75999,
-      "fruit": 105.18999
+      "fruit": 105.18999,
+      "lifeExpectancy": 83.3253,
+      "energy": 36221.496
     },
     {
       "code": "TUR",
@@ -257,7 +279,9 @@
       "milk": 186.75,
       "egg": 10.52,
       "vegetable": 250.58,
-      "fruit": 167.77
+      "fruit": 167.77,
+      "lifeExpectancy": 77.1557,
+      "energy": 22476.043
     },
     {
       "code": "ITA",
@@ -278,7 +302,9 @@
       "milk": 232.06999,
       "egg": 13.139999,
       "vegetable": 120.48999,
-      "fruit": 121.10999
+      "fruit": 121.10999,
+      "lifeExpectancy": 83.7157,
+      "energy": 28246.553
     },
     {
       "code": "KOR",
@@ -299,7 +325,9 @@
       "milk": 28.989996,
       "egg": 12.999998,
       "vegetable": 214.61996,
-      "fruit": 48.059998
+      "fruit": 48.059998,
+      "lifeExpectancy": 84.3288,
+      "energy": 68753.33
     },
     {
       "code": "MEX",
@@ -320,7 +348,9 @@
       "milk": 121.99,
       "egg": 21.55,
       "vegetable": 66.47,
-      "fruit": 137.38
+      "fruit": 137.38,
+      "lifeExpectancy": 75.069,
+      "energy": 17682.662
     },
     {
       "code": "CAN",
@@ -341,7 +371,9 @@
       "milk": 185.90001,
       "egg": 15.890002,
       "vegetable": 114.48001,
-      "fruit": 112.22001
+      "fruit": 112.22001,
+      "lifeExpectancy": 82.6302,
+      "energy": 98930.016
     },
     {
       "code": "SAU",
@@ -362,7 +394,9 @@
       "milk": 80.09,
       "egg": 11.39,
       "vegetable": 118.98,
-      "fruit": 105.32
+      "fruit": 105.32,
+      "lifeExpectancy": 78.7321,
+      "energy": 96221.54
     },
     {
       "code": "IRN",
@@ -383,7 +417,9 @@
       "milk": 26.5,
       "egg": 8.47,
       "vegetable": 105.38,
-      "fruit": 123.37001
+      "fruit": 123.37001,
+      "lifeExpectancy": 77.6545,
+      "energy": 39688.28
     },
     {
       "code": "ESP",
@@ -404,7 +440,9 @@
       "milk": 191.52998,
       "egg": 15.399998,
       "vegetable": 110.20999,
-      "fruit": 113.82999
+      "fruit": 113.82999,
+      "lifeExpectancy": 83.6703,
+      "energy": 32760.994
     },
     {
       "code": "EGY",
@@ -425,7 +463,9 @@
       "milk": 48.44,
       "egg": 3.69,
       "vegetable": 135.7,
-      "fruit": 94.03
+      "fruit": 94.03,
+      "lifeExpectancy": 71.6335,
+      "energy": 9566.154
     },
     {
       "code": "AUS",
@@ -446,7 +486,9 @@
       "milk": 227.05994,
       "egg": 7.639998,
       "vegetable": 160.61995,
-      "fruit": 86.07998
+      "fruit": 86.07998,
+      "lifeExpectancy": 83.9228,
+      "energy": 62658.08
     },
     {
       "code": "PAK",
@@ -467,7 +509,9 @@
       "milk": 129.71,
       "egg": 3.86,
       "vegetable": 30.43,
-      "fruit": 24.05
+      "fruit": 24.05,
+      "lifeExpectancy": 67.649,
+      "energy": 3653.4338
     },
     {
       "code": "POL",
@@ -488,7 +532,9 @@
       "milk": 206.29997,
       "egg": 5.169999,
       "vegetable": 123.559975,
-      "fruit": 66.87998
+      "fruit": 66.87998,
+      "lifeExpectancy": 78.6329,
+      "energy": 29225.926
     },
     {
       "code": "TWN",
@@ -509,7 +555,9 @@
       "milk": 57.790016,
       "egg": 14.050003,
       "vegetable": 120.82003,
-      "fruit": 94.38002
+      "fruit": 94.38002,
+      "lifeExpectancy": 80.5588,
+      "energy": 53882.113
     },
     {
       "code": "THA",
@@ -530,7 +578,9 @@
       "milk": 31.929998,
       "egg": 11.689999,
       "vegetable": 42.439995,
-      "fruit": 71.67999
+      "fruit": 71.67999,
+      "lifeExpectancy": 76.4115,
+      "energy": 19360.342
     },
     {
       "code": "NGA",
@@ -551,7 +601,9 @@
       "milk": 4.07,
       "egg": 2.62,
       "vegetable": 65.11,
-      "fruit": 68.27
+      "fruit": 68.27,
+      "lifeExpectancy": 54.4623,
+      "energy": 2194.584
     },
     {
       "code": "PHL",
@@ -572,7 +624,9 @@
       "milk": 23.85,
       "egg": 5.75,
       "vegetable": 59.480003,
-      "fruit": 98.2
+      "fruit": 98.2,
+      "lifeExpectancy": 69.8327,
+      "energy": 5298.6777
     },
     {
       "code": "MYS",
@@ -593,7 +647,9 @@
       "milk": 44.800007,
       "egg": 21.650003,
       "vegetable": 64.90001,
-      "fruit": 59.990013
+      "fruit": 59.990013,
+      "lifeExpectancy": 76.6571,
+      "energy": 37724.605
     },
     {
       "code": "NLD",
@@ -614,7 +670,9 @@
       "milk": 310.1999,
       "egg": 17.849995,
       "vegetable": 125.69995,
-      "fruit": 157.89993
+      "fruit": 157.89993,
+      "lifeExpectancy": 82.1576,
+      "energy": 51949.645
     },
     {
       "code": "BGD",
@@ -635,7 +693,9 @@
       "milk": 76.12,
       "egg": 3.77,
       "vegetable": 52.15,
-      "fruit": 30.35
+      "fruit": 30.35,
+      "lifeExpectancy": 74.6723,
+      "energy": 2954.8494
     },
     {
       "code": "ARG",
@@ -656,7 +716,9 @@
       "milk": 178.35999,
       "egg": 18.409998,
       "vegetable": 76.60999,
-      "fruit": 74.10999
+      "fruit": 74.10999,
+      "lifeExpectancy": 77.3947,
+      "energy": 22053.053
     },
     {
       "code": "ARE",
@@ -677,7 +739,9 @@
       "milk": 110.82991,
       "egg": 7.299994,
       "vegetable": 70.93994,
-      "fruit": 64.129944
+      "fruit": 64.129944,
+      "lifeExpectancy": 82.9091,
+      "energy": 134679.92
     },
     {
       "code": "VNM",
@@ -698,7 +762,9 @@
       "milk": 37.38,
       "egg": 3.96,
       "vegetable": 191.32,
-      "fruit": 99.61
+      "fruit": 99.61,
+      "lifeExpectancy": 74.5883,
+      "energy": 13711.071
     },
     {
       "code": "COL",
@@ -719,7 +785,9 @@
       "milk": 116.49999,
       "egg": 14.959999,
       "vegetable": 50.999996,
-      "fruit": 153.69998
+      "fruit": 153.69998,
+      "lifeExpectancy": 77.7246,
+      "energy": 11760.209
     },
     {
       "code": "ZAF",
@@ -740,7 +808,9 @@
       "milk": 52.27999,
       "egg": 5.8599997,
       "vegetable": 37.309998,
-      "fruit": 26.409996
+      "fruit": 26.409996,
+      "lifeExpectancy": 66.1387,
+      "energy": 21641.15
     },
     {
       "code": "DZA",
@@ -761,7 +831,9 @@
       "milk": 145.24998,
       "egg": 6.0499997,
       "vegetable": 221.32999,
-      "fruit": 107.13999
+      "fruit": 107.13999,
+      "lifeExpectancy": 76.261,
+      "energy": 16994.377
     },
     {
       "code": "IRQ",
@@ -782,7 +854,9 @@
       "milk": 45.956608,
       "egg": 2.1442986,
       "vegetable": 76.75731,
-      "fruit": 47.58627
+      "fruit": 47.58627,
+      "lifeExpectancy": 72.3242,
+      "energy": 15925.554
     },
     {
       "code": "CHE",
@@ -803,7 +877,9 @@
       "milk": 289.97986,
       "egg": 12.789993,
       "vegetable": 146.88992,
-      "fruit": 96.33995
+      "fruit": 96.33995,
+      "lifeExpectancy": 83.9536,
+      "energy": 35766.453
     },
     {
       "code": "KAZ",
@@ -824,7 +900,9 @@
       "milk": 191.46991,
       "egg": 9.709995,
       "vegetable": 301.46985,
-      "fruit": 63.54997
+      "fruit": 63.54997,
+      "lifeExpectancy": 74.4021,
+      "energy": 41624.883
     },
     {
       "code": "ROU",
@@ -845,7 +923,9 @@
       "milk": 233.37999,
       "egg": 13.159999,
       "vegetable": 124.78999,
-      "fruit": 112.87999
+      "fruit": 112.87999,
+      "lifeExpectancy": 75.9381,
+      "energy": 18796.941
     },
     {
       "code": "SWE",
@@ -866,7 +946,9 @@
       "milk": 220.76994,
       "egg": 10.419997,
       "vegetable": 158.58995,
-      "fruit": 86.96998
+      "fruit": 86.96998,
+      "lifeExpectancy": 83.2624,
+      "energy": 56802.957
     },
     {
       "code": "BEL",
@@ -887,7 +969,9 @@
       "milk": 204.50996,
       "egg": 31.829996,
       "vegetable": 213.65997,
-      "fruit": 79.59999
+      "fruit": 79.59999,
+      "lifeExpectancy": 82.115,
+      "energy": 55542.023
     },
     {
       "code": "NOR",
@@ -908,7 +992,9 @@
       "milk": 184.5801,
       "egg": 12.100007,
       "vegetable": 146.38008,
-      "fruit": 113.83006
+      "fruit": 113.83006,
+      "lifeExpectancy": 83.3078,
+      "energy": 99923.81
     },
     {
       "code": "SGP",
@@ -918,18 +1004,20 @@
       "gdpPerCapita": 80320.086,
       "gdpTotal": 464980367301.912,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 83.7362,
+      "energy": 171241.08
     },
     {
       "code": "UZB",
@@ -950,7 +1038,9 @@
       "milk": 275.61996,
       "egg": 12.559999,
       "vegetable": 262.58997,
-      "fruit": 106.83999
+      "fruit": 106.83999,
+      "lifeExpectancy": 72.3884,
+      "energy": 16840.781
     },
     {
       "code": "CHL",
@@ -971,7 +1061,9 @@
       "milk": 105.07999,
       "egg": 9.889998,
       "vegetable": 77.569984,
-      "fruit": 76.80999
+      "fruit": 76.80999,
+      "lifeExpectancy": 81.1667,
+      "energy": 25306.361
     },
     {
       "code": "QAT",
@@ -992,7 +1084,9 @@
       "milk": 99.7898,
       "egg": 15.149969,
       "vegetable": 173.74965,
-      "fruit": 71.21986
+      "fruit": 71.21986,
+      "lifeExpectancy": 82.368,
+      "energy": 208038.81
     },
     {
       "code": "PER",
@@ -1013,7 +1107,9 @@
       "milk": 89.91002,
       "egg": 10.950002,
       "vegetable": 62.590008,
-      "fruit": 135.55002
+      "fruit": 135.55002,
+      "lifeExpectancy": 77.7401,
+      "energy": 10143.117
     },
     {
       "code": "AUT",
@@ -1034,7 +1130,9 @@
       "milk": 216.3199,
       "egg": 15.119993,
       "vegetable": 178.0099,
-      "fruit": 117.22995
+      "fruit": 117.22995,
+      "lifeExpectancy": 81.9559,
+      "energy": 43148.035
     },
     {
       "code": "HKG",
@@ -1055,7 +1153,9 @@
       "milk": 67.399925,
       "egg": 28.299969,
       "vegetable": 172.55981,
-      "fruit": 75.069916
+      "fruit": 75.069916,
+      "lifeExpectancy": 85.5106,
+      "energy": 33757.816
     },
     {
       "code": "CZE",
@@ -1076,7 +1176,9 @@
       "milk": 173.74997,
       "egg": 8.939998,
       "vegetable": 115.88998,
-      "fruit": 78.859985
+      "fruit": 78.859985,
+      "lifeExpectancy": 79.8341,
+      "energy": 38043.734
     },
     {
       "code": "KWT",
@@ -1087,7 +1189,7 @@
       "gdpTotal": 346135018083.99603,
       "meat": {
         "total": 75.5099845,
-        "pig": null,
+        "pig": 0,
         "beef": 9.489998,
         "sheep": 14.259996,
         "poultry": 36.809994,
@@ -1097,7 +1199,9 @@
       "milk": 141.51997,
       "egg": 14.029996,
       "vegetable": 162.88995,
-      "fruit": 92.79998
+      "fruit": 92.79998,
+      "lifeExpectancy": 80.4047,
+      "energy": 103089.836
     },
     {
       "code": "ISR",
@@ -1118,7 +1222,9 @@
       "milk": 175.53996,
       "egg": 12.499998,
       "vegetable": 143.19998,
-      "fruit": 117.789986
+      "fruit": 117.789986,
+      "lifeExpectancy": 82.408,
+      "energy": 30723.857
     },
     {
       "code": "MAR",
@@ -1139,7 +1245,9 @@
       "milk": 35.759983,
       "egg": 7.6699967,
       "vegetable": 86.009964,
-      "fruit": 88.98996
+      "fruit": 88.98996,
+      "lifeExpectancy": 75.3128,
+      "energy": 7189.8057
     },
     {
       "code": "IRL",
@@ -1160,7 +1268,9 @@
       "milk": 324.22006,
       "egg": 13.370002,
       "vegetable": 185.62003,
-      "fruit": 106.930016
+      "fruit": 106.930016,
+      "lifeExpectancy": 82.4118,
+      "energy": 34725.47
     },
     {
       "code": "PRT",
@@ -1181,7 +1291,9 @@
       "milk": 239.40012,
       "egg": 12.860006,
       "vegetable": 127.06006,
-      "fruit": 136.22006
+      "fruit": 136.22006,
+      "lifeExpectancy": 82.3599,
+      "energy": 25498.7
     },
     {
       "code": "DNK",
@@ -1202,7 +1314,9 @@
       "milk": 496.4905,
       "egg": 13.450014,
       "vegetable": 149.86015,
-      "fruit": 106.55011
+      "fruit": 106.55011,
+      "lifeExpectancy": 81.9328,
+      "energy": 32816.66
     },
     {
       "code": "ETH",
@@ -1223,7 +1337,9 @@
       "milk": 30.809998,
       "egg": 0.29999998,
       "vegetable": 11.709999,
-      "fruit": 10.969999
+      "fruit": 10.969999,
+      "lifeExpectancy": 67.315,
+      "energy": 686.2303
     },
     {
       "code": "UKR",
@@ -1244,7 +1360,9 @@
       "milk": 148.52003,
       "egg": 16.150003,
       "vegetable": 180.37003,
-      "fruit": 51.81001
+      "fruit": 51.81001,
+      "lifeExpectancy": 73.4225,
+      "energy": 15586.6875
     },
     {
       "code": "HUN",
@@ -1265,7 +1383,9 @@
       "milk": 188.99991,
       "egg": 14.299993,
       "vegetable": 98.31995,
-      "fruit": 81.25996
+      "fruit": 81.25996,
+      "lifeExpectancy": 77.024,
+      "energy": 26357.766
     },
     {
       "code": "MMR",
@@ -1286,7 +1406,9 @@
       "milk": 8.82,
       "egg": 1.98,
       "vegetable": 80.43,
-      "fruit": 40.13
+      "fruit": 40.13,
+      "lifeExpectancy": 66.889,
+      "energy": 2383.6958
     },
     {
       "code": "GRC",
@@ -1307,7 +1429,9 @@
       "milk": 257.2,
       "egg": 9.65,
       "vegetable": 130.05,
-      "fruit": 121.56
+      "fruit": 121.56,
+      "lifeExpectancy": 81.8568,
+      "energy": 29864.28
     },
     {
       "code": "LKA",
@@ -1328,7 +1452,9 @@
       "milk": 43.36001,
       "egg": 3.5700006,
       "vegetable": 62.380013,
-      "fruit": 43.030006
+      "fruit": 43.030006,
+      "lifeExpectancy": 77.4828,
+      "energy": 4356.593
     },
     {
       "code": "OMN",
@@ -1349,7 +1475,9 @@
       "milk": 255.69016,
       "egg": 5.8500032,
       "vegetable": 274.57016,
-      "fruit": 141.18008
+      "fruit": 141.18008,
+      "lifeExpectancy": 80.0305,
+      "energy": 86222.51
     },
     {
       "code": "FIN",
@@ -1370,7 +1498,9 @@
       "milk": 257.8102,
       "egg": 10.450009,
       "vegetable": 103.160095,
-      "fruit": 92.17008
+      "fruit": 92.17008,
+      "lifeExpectancy": 81.9102,
+      "energy": 59655.676
     },
     {
       "code": "AGO",
@@ -1391,7 +1521,9 @@
       "milk": 7.8200006,
       "egg": 1.74,
       "vegetable": 54.87,
-      "fruit": 82.42
+      "fruit": 82.42,
+      "lifeExpectancy": 64.617,
+      "energy": 2690.1719
     },
     {
       "code": "TZA",
@@ -1412,7 +1544,9 @@
       "milk": 36.15,
       "egg": 2.81,
       "vegetable": 42.14,
-      "fruit": 67.18
+      "fruit": 67.18,
+      "lifeExpectancy": 66.9953,
+      "energy": 1169.3898
     },
     {
       "code": "DOM",
@@ -1433,7 +1567,9 @@
       "milk": 113.310005,
       "egg": 16.75,
       "vegetable": 159.88,
-      "fruit": 379.63004
+      "fruit": 379.63004,
+      "lifeExpectancy": 73.7201,
+      "energy": 11660.211
     },
     {
       "code": "NZL",
@@ -1454,7 +1590,9 @@
       "milk": 61.810036,
       "egg": 10.870006,
       "vegetable": 137.90007,
-      "fruit": 107.94006
+      "fruit": 107.94006,
+      "lifeExpectancy": 82.088,
+      "energy": 46344.71
     },
     {
       "code": "KEN",
@@ -1475,7 +1613,9 @@
       "milk": 87.94999,
       "egg": 1.2499999,
       "vegetable": 55.579994,
-      "fruit": 79.20999
+      "fruit": 79.20999,
+      "lifeExpectancy": 63.6459,
+      "energy": 1609.8734
     },
     {
       "code": "AZE",
@@ -1496,7 +1636,9 @@
       "milk": 165.43001,
       "egg": 10.640001,
       "vegetable": 196.28001,
-      "fruit": 91.32001
+      "fruit": 91.32001,
+      "lifeExpectancy": 74.4286,
+      "energy": 21072.756
     },
     {
       "code": "ECU",
@@ -1517,7 +1659,9 @@
       "milk": 115.770004,
       "egg": 7.7200003,
       "vegetable": 23.650002,
-      "fruit": 80.41001
+      "fruit": 80.41001,
+      "lifeExpectancy": 77.3924,
+      "energy": 12916.207
     },
     {
       "code": "BLR",
@@ -1538,7 +1682,9 @@
       "milk": 170.09001,
       "egg": 16.700003,
       "vegetable": 178.34001,
-      "fruit": 62.400005
+      "fruit": 62.400005,
+      "lifeExpectancy": 74.4339,
+      "energy": 33297.785
     },
     {
       "code": "SVK",
@@ -1559,7 +1705,9 @@
       "milk": 218.6197,
       "egg": 9.339988,
       "vegetable": 117.46985,
-      "fruit": 61.13992
+      "fruit": 61.13992,
+      "lifeExpectancy": 78.3414,
+      "energy": 33405.19
     },
     {
       "code": "VEN",
@@ -1580,7 +1728,9 @@
       "milk": 124.629944,
       "egg": 6.939997,
       "vegetable": 47.93998,
-      "fruit": 91.81996
+      "fruit": 91.81996,
+      "lifeExpectancy": 72.5142,
+      "energy": 24715.852
     },
     {
       "code": "GTM",
@@ -1601,7 +1751,9 @@
       "milk": 82.979996,
       "egg": 12.419999,
       "vegetable": 67.549995,
-      "fruit": 69.74999
+      "fruit": 69.74999,
+      "lifeExpectancy": 72.6023,
+      "energy": 5310.5815
     },
     {
       "code": "GHA",
@@ -1622,7 +1774,9 @@
       "milk": 5.899999,
       "egg": 1.0599997,
       "vegetable": 29.169994,
-      "fruit": 164.99997
+      "fruit": 164.99997,
+      "lifeExpectancy": 65.4979,
+      "energy": 3158.5186
     },
     {
       "code": "BGR",
@@ -1643,7 +1797,9 @@
       "milk": 179.89986,
       "egg": 5.199996,
       "vegetable": 100.289925,
-      "fruit": 74.42995
+      "fruit": 74.42995,
+      "lifeExpectancy": 75.6363,
+      "energy": 29007.344
     },
     {
       "code": "TUN",
@@ -1664,7 +1820,9 @@
       "milk": 114.70996,
       "egg": 7.029998,
       "vegetable": 252.4199,
-      "fruit": 109.37996
+      "fruit": 109.37996,
+      "lifeExpectancy": 76.5077,
+      "energy": 10008.584
     },
     {
       "code": "TKM",
@@ -1685,7 +1843,9 @@
       "milk": 278.57013,
       "egg": 11.560005,
       "vegetable": 130.42004,
-      "fruit": 51.55002
+      "fruit": 51.55002,
+      "lifeExpectancy": 70.0727,
+      "energy": 59537.51
     },
     {
       "code": "CIV",
@@ -1706,7 +1866,9 @@
       "milk": 10.049999,
       "egg": 1.9899999,
       "vegetable": 31.329998,
-      "fruit": 62.409996
+      "fruit": 62.409996,
+      "lifeExpectancy": 61.9438,
+      "energy": 2691.0317
     },
     {
       "code": "SRB",
@@ -1727,7 +1889,9 @@
       "milk": 189.3599,
       "egg": 12.779992,
       "vegetable": 103.06994,
-      "fruit": 147.60992
+      "fruit": 147.60992,
+      "lifeExpectancy": 76.7693,
+      "energy": 25981.281
     },
     {
       "code": "PRI",
@@ -1737,18 +1901,20 @@
       "gdpPerCapita": 35280.668,
       "gdpTotal": 114380701830.696,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 81.6902,
+      "energy": 27193.633
     },
     {
       "code": "HRV",
@@ -1769,7 +1935,9 @@
       "milk": 184.80986,
       "egg": 8.939993,
       "vegetable": 338.03976,
-      "fruit": 104.97992
+      "fruit": 104.97992,
+      "lifeExpectancy": 78.5803,
+      "energy": 26982.51
     },
     {
       "code": "PAN",
@@ -1790,7 +1958,9 @@
       "milk": 36.350014,
       "egg": 7.070003,
       "vegetable": 41.870014,
-      "fruit": 154.28006
+      "fruit": 154.28006,
+      "lifeExpectancy": 79.5937,
+      "energy": 23370.957
     },
     {
       "code": "JOR",
@@ -1811,7 +1981,9 @@
       "milk": 103.559906,
       "egg": 4.579996,
       "vegetable": 117.60989,
-      "fruit": 40.849964
+      "fruit": 40.849964,
+      "lifeExpectancy": 77.8145,
+      "energy": 9430.404
     },
     {
       "code": "UGA",
@@ -1832,7 +2004,9 @@
       "milk": 53.989998,
       "egg": 0.74999994,
       "vegetable": 27.849998,
-      "fruit": 207.60999
+      "fruit": 207.60999,
+      "lifeExpectancy": 68.2523,
+      "energy": 640.63715
     },
     {
       "code": "LBY",
@@ -1853,7 +2027,9 @@
       "milk": 141.74002,
       "egg": 8.880001,
       "vegetable": 193.31003,
-      "fruit": 89.94002
+      "fruit": 89.94002,
+      "lifeExpectancy": 69.3389,
+      "energy": 30564.959
     },
     {
       "code": "NPL",
@@ -1874,7 +2050,9 @@
       "milk": 42.409992,
       "egg": 2.3599994,
       "vegetable": 149.04997,
-      "fruit": 51.25999
+      "fruit": 51.25999,
+      "lifeExpectancy": 70.3537,
+      "energy": 1679.4807
     },
     {
       "code": "COD",
@@ -1895,7 +2073,9 @@
       "milk": 48.589996,
       "egg": 0.059999995,
       "vegetable": 6.8899994,
-      "fruit": 51.469997
+      "fruit": 51.469997,
+      "lifeExpectancy": 61.895,
+      "energy": 321.35803
     },
     {
       "code": "LTU",
@@ -1916,7 +2096,9 @@
       "milk": 292.5796,
       "egg": 13.809981,
       "vegetable": 99.60986,
-      "fruit": 58.03992
+      "fruit": 58.03992,
+      "lifeExpectancy": 76.025,
+      "energy": 24025.424
     },
     {
       "code": "CUB",
@@ -1926,18 +2108,20 @@
       "gdpPerCapita": 7648.704,
       "gdpTotal": 84288197968.12799,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 78.0855,
+      "energy": 7638.028
     },
     {
       "code": "CMR",
@@ -1958,7 +2142,9 @@
       "milk": 12.19,
       "egg": 1.74,
       "vegetable": 107.04,
-      "fruit": 93.3
+      "fruit": 93.3,
+      "lifeExpectancy": 63.6996,
+      "energy": 1189.4617
     },
     {
       "code": "BOL",
@@ -1979,7 +2165,9 @@
       "milk": 39.059998,
       "egg": 6.8899994,
       "vegetable": 43.049995,
-      "fruit": 85.149994
+      "fruit": 85.149994,
+      "lifeExpectancy": 68.5814,
+      "energy": 8943.399
     },
     {
       "code": "CRI",
@@ -2000,7 +2188,9 @@
       "milk": 172.90012,
       "egg": 13.61001,
       "vegetable": 71.77005,
-      "fruit": 77.120056
+      "fruit": 77.120056,
+      "lifeExpectancy": 80.7995,
+      "energy": 9928.395
     },
     {
       "code": "YEM",
@@ -2021,7 +2211,9 @@
       "milk": 32.8,
       "egg": 1.6,
       "vegetable": 19.85,
-      "fruit": 26.47
+      "fruit": 26.47,
+      "lifeExpectancy": 69.2952,
+      "energy": 1484.1034
     },
     {
       "code": "ZMB",
@@ -2042,7 +2234,9 @@
       "milk": 8.100002,
       "egg": 2.7000005,
       "vegetable": 17.950005,
-      "fruit": 4.270001
+      "fruit": 4.270001,
+      "lifeExpectancy": 66.3487,
+      "energy": 2458.7996
     },
     {
       "code": "SVN",
@@ -2063,7 +2257,9 @@
       "milk": 200.89056,
       "egg": 11.250031,
       "vegetable": 160.73044,
-      "fruit": 131.06036
+      "fruit": 131.06036,
+      "lifeExpectancy": 81.6034,
+      "energy": 34819.645
     },
     {
       "code": "KHM",
@@ -2084,7 +2280,9 @@
       "milk": 9.679998,
       "egg": 1.0899998,
       "vegetable": 35.859993,
-      "fruit": 17.719995
+      "fruit": 17.719995,
+      "lifeExpectancy": 70.6675,
+      "energy": 4316.096
     },
     {
       "code": "URY",
@@ -2105,7 +2303,9 @@
       "milk": 223.3598,
       "egg": 14.499988,
       "vegetable": 107.41991,
-      "fruit": 98.55991
+      "fruit": 98.55991,
+      "lifeExpectancy": 78.1385,
+      "energy": 15388.066
     },
     {
       "code": "BHR",
@@ -2126,7 +2326,9 @@
       "milk": 194.05951,
       "egg": 10.689973,
       "vegetable": 139.37965,
-      "fruit": 125.13969
+      "fruit": 125.13969,
+      "lifeExpectancy": 81.2835,
+      "energy": 154090.9
     },
     {
       "code": "PRY",
@@ -2147,7 +2349,9 @@
       "milk": 59.52,
       "egg": 17.23,
       "vegetable": 65.3,
-      "fruit": 78.18
+      "fruit": 78.18,
+      "lifeExpectancy": 73.8443,
+      "energy": 6629.5996
     },
     {
       "code": "LBN",
@@ -2168,7 +2372,9 @@
       "milk": 111.719925,
       "egg": 7.1099954,
       "vegetable": 138.15991,
-      "fruit": 103.76993
+      "fruit": 103.76993,
+      "lifeExpectancy": 77.817,
+      "energy": 12173.08
     },
     {
       "code": "SYR",
@@ -2189,7 +2395,9 @@
       "milk": 73.459984,
       "egg": 4.0899997,
       "vegetable": 74.819984,
-      "fruit": 80.73998
+      "fruit": 80.73998,
+      "lifeExpectancy": 72.1201,
+      "energy": 4905.252
     },
     {
       "code": "SLV",
@@ -2210,7 +2418,9 @@
       "milk": 250.74965,
       "egg": 8.539988,
       "vegetable": 92.50987,
-      "fruit": 82.779884
+      "fruit": 82.779884,
+      "lifeExpectancy": 72.0993,
+      "energy": 7717.7236
     },
     {
       "code": "TJK",
@@ -2231,7 +2441,9 @@
       "milk": 111.56992,
       "egg": 6.2099957,
       "vegetable": 259.50983,
-      "fruit": 29.709978
+      "fruit": 29.709978,
+      "lifeExpectancy": 71.7901,
+      "energy": 4818.661
     },
     {
       "code": "AFG",
@@ -2252,7 +2464,9 @@
       "milk": 37.11,
       "egg": 0.58,
       "vegetable": 63.41,
-      "fruit": 39.92
+      "fruit": 39.92,
+      "lifeExpectancy": 66.0346,
+      "energy": 971.6966
     },
     {
       "code": "HND",
@@ -2273,7 +2487,9 @@
       "milk": 65.059975,
       "egg": 3.9399989,
       "vegetable": 35.72999,
-      "fruit": 57.74998
+      "fruit": 57.74998,
+      "lifeExpectancy": 72.8842,
+      "energy": 5392.4785
     },
     {
       "code": "LAO",
@@ -2294,7 +2510,9 @@
       "milk": 10.149985,
       "egg": 1.8299974,
       "vegetable": 201.52971,
-      "fruit": 132.77982
+      "fruit": 132.77982,
+      "lifeExpectancy": 68.9637,
+      "energy": 10151.002
     },
     {
       "code": "GEO",
@@ -2315,7 +2533,9 @@
       "milk": 188.81981,
       "egg": 11.269989,
       "vegetable": 83.519905,
-      "fruit": 47.75995
+      "fruit": 47.75995,
+      "lifeExpectancy": 74.4965,
+      "energy": 17783.207
     },
     {
       "code": "LVA",
@@ -2336,7 +2556,9 @@
       "milk": 259.70016,
       "egg": 9.000005,
       "vegetable": 144.55008,
-      "fruit": 62.470036
+      "fruit": 62.470036,
+      "lifeExpectancy": 76.1898,
+      "energy": 21654.951
     },
     {
       "code": "SEN",
@@ -2357,7 +2579,9 @@
       "milk": 18.259998,
       "egg": 3.2999995,
       "vegetable": 140.50998,
-      "fruit": 19.669996
+      "fruit": 19.669996,
+      "lifeExpectancy": 68.6829,
+      "energy": 2745.6868
     },
     {
       "code": "MNG",
@@ -2378,7 +2602,9 @@
       "milk": 186.79956,
       "egg": 6.939984,
       "vegetable": 102.29976,
-      "fruit": 20.83995
+      "fruit": 20.83995,
+      "lifeExpectancy": 71.7341,
+      "energy": 21177.12
     },
     {
       "code": "MDG",
@@ -2399,7 +2625,9 @@
       "milk": 15.1799965,
       "egg": 0.4899999,
       "vegetable": 13.479997,
-      "fruit": 36.699993
+      "fruit": 36.699993,
+      "lifeExpectancy": 63.6317,
+      "energy": 518.01715
     },
     {
       "code": "CYP",
@@ -2420,7 +2648,9 @@
       "milk": 168.15988,
       "egg": 7.6099944,
       "vegetable": 96.52992,
-      "fruit": 77.78994
+      "fruit": 77.78994,
+      "lifeExpectancy": 81.648,
+      "energy": 23877.7
     },
     {
       "code": "GNQ",
@@ -2430,18 +2660,20 @@
       "gdpPerCapita": 22707.22,
       "gdpTotal": 41952860554.32,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 63.7071,
+      "energy": 19511.662
     },
     {
       "code": "PRK",
@@ -2451,18 +2683,20 @@
       "gdpPerCapita": 1568.847,
       "gdpTotal": 41446107540.012,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 73.6418,
+      "energy": 7003.885
     },
     {
       "code": "EST",
@@ -2483,7 +2717,9 @@
       "milk": 339.35123,
       "egg": 12.790047,
       "vegetable": 132.27048,
-      "fruit": 81.8703
+      "fruit": 81.8703,
+      "lifeExpectancy": 79.1535,
+      "energy": 41162.695
     },
     {
       "code": "ARM",
@@ -2504,7 +2740,9 @@
       "milk": 210.63942,
       "egg": 13.419963,
       "vegetable": 217.6694,
-      "fruit": 112.20969
+      "fruit": 112.20969,
+      "lifeExpectancy": 75.6827,
+      "energy": 16437.85
     },
     {
       "code": "BWA",
@@ -2525,7 +2763,9 @@
       "milk": 89.369934,
       "egg": 1.4099988,
       "vegetable": 48.879963,
-      "fruit": 46.63996
+      "fruit": 46.63996,
+      "lifeExpectancy": 69.1631,
+      "energy": 9402.787
     },
     {
       "code": "MLI",
@@ -2535,18 +2775,20 @@
       "gdpPerCapita": 1651.9413,
       "gdpTotal": 39265207512.069,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 16.128037036000002,
+        "pig": 0.058754236,
+        "beef": 2.6635253,
+        "sheep": 0.8225593,
+        "poultry": 2.497055,
+        "other": 1.4492712,
+        "fish": 8.636872
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 39.776615,
+      "egg": 0.48961863,
+      "vegetable": 122.53196,
+      "fruit": 83.03932,
+      "lifeExpectancy": 60.4394,
+      "energy": 1184.5524
     },
     {
       "code": "BFA",
@@ -2567,7 +2809,9 @@
       "milk": 20.930002,
       "egg": 1.0900002,
       "vegetable": 58.600006,
-      "fruit": 59.850006
+      "fruit": 59.850006,
+      "lifeExpectancy": 61.092,
+      "energy": 1066.4028
     },
     {
       "code": "GAB",
@@ -2588,7 +2832,9 @@
       "milk": 31.81,
       "egg": 0.85,
       "vegetable": 55.48,
-      "fruit": 131.3
+      "fruit": 131.3,
+      "lifeExpectancy": 68.3367,
+      "energy": 6684.277
     },
     {
       "code": "TTO",
@@ -2609,7 +2855,9 @@
       "milk": 68.42964,
       "egg": 7.029963,
       "vegetable": 95.2895,
-      "fruit": 73.52961
+      "fruit": 73.52961,
+      "lifeExpectancy": 73.4896,
+      "energy": 109068.18
     },
     {
       "code": "BIH",
@@ -2630,7 +2878,9 @@
       "milk": 193.36987,
       "egg": 6.9999957,
       "vegetable": 260.98984,
-      "fruit": 196.59988
+      "fruit": 196.59988,
+      "lifeExpectancy": 77.8504,
+      "energy": 26697.61
     },
     {
       "code": "KGZ",
@@ -2651,7 +2901,9 @@
       "milk": 213.8699,
       "egg": 6.479997,
       "vegetable": 189.35992,
-      "fruit": 39.549984
+      "fruit": 39.549984,
+      "lifeExpectancy": 71.677,
+      "energy": 8018.535
     },
     {
       "code": "LUX",
@@ -2672,7 +2924,9 @@
       "milk": 257.0596,
       "egg": 25.46996,
       "vegetable": 219.12967,
-      "fruit": 135.90979
+      "fruit": 135.90979,
+      "lifeExpectancy": 82.2294,
+      "energy": 56679.46
     },
     {
       "code": "MOZ",
@@ -2693,7 +2947,9 @@
       "milk": 4.8099995,
       "egg": 0.48999998,
       "vegetable": 42.079998,
-      "fruit": 16.479998
+      "fruit": 16.479998,
+      "lifeExpectancy": 63.6111,
+      "energy": 1684.5072
     },
     {
       "code": "ALB",
@@ -2714,7 +2970,9 @@
       "milk": 290.98,
       "egg": 11.62,
       "vegetable": 382.37,
-      "fruit": 185.68
+      "fruit": 185.68,
+      "lifeExpectancy": 79.6019,
+      "energy": 8671.463
     },
     {
       "code": "BEN",
@@ -2724,18 +2982,20 @@
       "gdpPerCapita": 2477.0903,
       "gdpTotal": 34954307921.460495,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 32.09265407,
+        "pig": 0.9801506,
+        "beef": 2.668727,
+        "sheep": 2.6105,
+        "poultry": 10.374069,
+        "other": 0.64049447,
+        "fish": 14.818713
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 10.587567,
+      "egg": 0.9219238,
+      "vegetable": 71.211334,
+      "fruit": 42.641403,
+      "lifeExpectancy": 60.7738,
+      "energy": 2174.9902
     },
     {
       "code": "NIC",
@@ -2756,7 +3016,9 @@
       "milk": 134.99982,
       "egg": 4.749994,
       "vegetable": 37.15995,
-      "fruit": 59.43992
+      "fruit": 59.43992,
+      "lifeExpectancy": 74.9468,
+      "energy": 3861.8176
     },
     {
       "code": "RWA",
@@ -2777,7 +3039,9 @@
       "milk": 13.699997,
       "egg": 0.35999992,
       "vegetable": 45.53999,
-      "fruit": 99.309975
+      "fruit": 99.309975,
+      "lifeExpectancy": 67.7852,
+      "energy": 563.4707
     },
     {
       "code": "ZWE",
@@ -2798,7 +3062,9 @@
       "milk": 27.219984,
       "egg": 1.5599991,
       "vegetable": 134.33992,
-      "fruit": 43.009975
+      "fruit": 43.009975,
+      "lifeExpectancy": 62.7748,
+      "energy": 3283.9172
     },
     {
       "code": "TCD",
@@ -2808,18 +3074,20 @@
       "gdpPerCapita": 1393.5635,
       "gdpTotal": 26922357773.7625,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 52.60721836,
+        "pig": 0.13444707,
+        "beef": 27.321566,
+        "sheep": 18.275198,
+        "poultry": 0.46096134,
+        "other": 0.80668235,
+        "fish": 5.6083636
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 23.115292,
+      "egg": 0.20167059,
+      "vegetable": 5.339469,
+      "fruit": 7.1737113,
+      "lifeExpectancy": 55.0692,
+      "energy": 391.97833
     },
     {
       "code": "NER",
@@ -2840,7 +3108,9 @@
       "milk": 36.24001,
       "egg": 0.23000006,
       "vegetable": 133.51003,
-      "fruit": 21.440006
+      "fruit": 21.440006,
+      "lifeExpectancy": 61.1833,
+      "energy": 565.49994
     },
     {
       "code": "MUS",
@@ -2861,7 +3131,9 @@
       "milk": 154.34988,
       "egg": 7.709994,
       "vegetable": 153.34988,
-      "fruit": 57.629955
+      "fruit": 57.629955,
+      "lifeExpectancy": 74.9263,
+      "energy": 17726.076
     },
     {
       "code": "GIN",
@@ -2882,7 +3154,9 @@
       "milk": 14.900001,
       "egg": 1.8700001,
       "vegetable": 42.910004,
-      "fruit": 103.44001
+      "fruit": 103.44001,
+      "lifeExpectancy": 60.7405,
+      "energy": 1484.0073
     },
     {
       "code": "COG",
@@ -2903,7 +3177,9 @@
       "milk": 6.7,
       "egg": 0.19,
       "vegetable": 13.14,
-      "fruit": 41.7
+      "fruit": 41.7,
+      "lifeExpectancy": 65.772,
+      "energy": 3794.8552
     },
     {
       "code": "PSE",
@@ -2913,18 +3189,20 @@
       "gdpPerCapita": 4775.202,
       "gdpTotal": 25830027433.602,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 65.1703,
+      "energy": 4955.524
     },
     {
       "code": "MKD",
@@ -2945,7 +3223,9 @@
       "milk": 156.38,
       "egg": 8.07,
       "vegetable": 298.72,
-      "fruit": 97.56
+      "fruit": 97.56,
+      "lifeExpectancy": 77.3947,
+      "energy": 17752.902
     },
     {
       "code": "MWI",
@@ -2966,7 +3246,9 @@
       "milk": 10.95,
       "egg": 0.88,
       "vegetable": 86.46,
-      "fruit": 175.94
+      "fruit": 175.94,
+      "lifeExpectancy": 67.3535,
+      "energy": 382.16806
     },
     {
       "code": "NAM",
@@ -2987,7 +3269,9 @@
       "milk": 57.16977,
       "egg": 0.8399966,
       "vegetable": 25.0999,
-      "fruit": 46.389812
+      "fruit": 46.389812,
+      "lifeExpectancy": 67.3848,
+      "energy": 6295.449
     },
     {
       "code": "JAM",
@@ -3008,7 +3292,9 @@
       "milk": 107.230194,
       "egg": 3.5300062,
       "vegetable": 122.620224,
-      "fruit": 144.07027
+      "fruit": 144.07027,
+      "lifeExpectancy": 71.4789,
+      "energy": 12950.892
     },
     {
       "code": "MDA",
@@ -3029,7 +3315,9 @@
       "milk": 100.66328,
       "egg": 10.278083,
       "vegetable": 99.156715,
-      "fruit": 124.0819
+      "fruit": 124.0819,
+      "lifeExpectancy": 71.1985,
+      "energy": 10312.887
     },
     {
       "code": "MRT",
@@ -3050,7 +3338,9 @@
       "milk": 117.969955,
       "egg": 1.0599995,
       "vegetable": 45.68998,
-      "fruit": 22.00999
+      "fruit": 22.00999,
+      "lifeExpectancy": 68.4836,
+      "energy": 3811.7117
     },
     {
       "code": "MLT",
@@ -3071,7 +3361,9 @@
       "milk": 272.82794,
       "egg": 13.139902,
       "vegetable": 172.59872,
-      "fruit": 83.48937
+      "fruit": 83.48937,
+      "lifeExpectancy": 83.2989,
+      "energy": 75718.19
     },
     {
       "code": "HTI",
@@ -3092,7 +3384,9 @@
       "milk": 6.949999,
       "egg": 0.38999993,
       "vegetable": 15.0599985,
-      "fruit": 87.34998
+      "fruit": 87.34998,
+      "lifeExpectancy": 64.9356,
+      "energy": 612.09735
     },
     {
       "code": "ISL",
@@ -3113,7 +3407,9 @@
       "milk": 202.17052,
       "egg": 9.940025,
       "vegetable": 157.6804,
-      "fruit": 130.14034
+      "fruit": 130.14034,
+      "lifeExpectancy": 82.6911,
+      "energy": 165312.66
     },
     {
       "code": "SLE",
@@ -3134,7 +3430,9 @@
       "milk": 8.749987,
       "egg": 1.259998,
       "vegetable": 67.579895,
-      "fruit": 30.749952
+      "fruit": 30.749952,
+      "lifeExpectancy": 61.7858,
+      "energy": 797.8383
     },
     {
       "code": "MNE",
@@ -3155,7 +3453,9 @@
       "milk": 443.4679,
       "egg": 13.379936,
       "vegetable": 165.4192,
-      "fruit": 120.75943
+      "fruit": 120.75943,
+      "lifeExpectancy": 77.0869,
+      "energy": 18402.727
     },
     {
       "code": "TGO",
@@ -3165,18 +3465,20 @@
       "gdpPerCapita": 1586.5889,
       "gdpTotal": 13047873885.0317,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 21.27561644,
+        "pig": 2.5114002,
+        "beef": 1.0089468,
+        "sheep": 1.3708516,
+        "poultry": 5.9988465,
+        "other": 0.80057734,
+        "fish": 9.584994
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 5.680809,
+      "egg": 2.4675329,
+      "vegetable": 43.022808,
+      "fruit": 7.6767693,
+      "lifeExpectancy": 62.7387,
+      "energy": 1597.1461
     },
     {
       "code": "SWZ",
@@ -3197,7 +3499,9 @@
       "milk": 54.040134,
       "egg": 1.4300034,
       "vegetable": 31.780079,
-      "fruit": 75.620186
+      "fruit": 75.620186,
+      "lifeExpectancy": 64.1227,
+      "energy": 5585.262
     },
     {
       "code": "BDI",
@@ -3207,18 +3511,20 @@
       "gdpPerCapita": 717.22845,
       "gdpTotal": 9818466590.99475,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 5.960453707999999,
+        "pig": 0.8418173,
+        "beef": 1.2675639,
+        "sheep": 0.7644089,
+        "poultry": 0.6386201,
+        "other": 0.048380308,
+        "fish": 2.3996632
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 5.360538,
+      "egg": 0.13546486,
+      "vegetable": 35.93689,
+      "fruit": 73.77029,
+      "lifeExpectancy": 63.6511,
+      "energy": 282.95456
     },
     {
       "code": "GMB",
@@ -3239,7 +3545,9 @@
       "milk": 42.180065,
       "egg": 1.970003,
       "vegetable": 29.140043,
-      "fruit": 6.070009
+      "fruit": 6.070009,
+      "lifeExpectancy": 65.8603,
+      "energy": 827.3441
     },
     {
       "code": "LSO",
@@ -3260,7 +3568,9 @@
       "milk": 83.42978,
       "egg": 0.5499986,
       "vegetable": 31.129917,
-      "fruit": 15.599959
+      "fruit": 15.599959,
+      "lifeExpectancy": 57.3749,
+      "energy": 1843.9155
     },
     {
       "code": "LBR",
@@ -3281,7 +3591,9 @@
       "milk": 3.2999969,
       "egg": 1.4999986,
       "vegetable": 27.099976,
-      "fruit": 36.359966
+      "fruit": 36.359966,
+      "lifeExpectancy": 62.1625,
+      "energy": 568.06604
     },
     {
       "code": "DJI",
@@ -3302,7 +3614,9 @@
       "milk": 61.11941,
       "egg": 2.0199807,
       "vegetable": 115.648895,
-      "fruit": 39.489624
+      "fruit": 39.489624,
+      "lifeExpectancy": 65.9865,
+      "energy": 2999.6667
     },
     {
       "code": "SYC",
@@ -3323,7 +3637,9 @@
       "milk": 101.73125,
       "egg": 11.0190525,
       "vegetable": 137.01822,
-      "fruit": 84.50274
+      "fruit": 84.50274,
+      "lifeExpectancy": 72.862,
+      "energy": 31019.922
     },
     {
       "code": "CPV",
@@ -3344,7 +3660,9 @@
       "milk": 100.18905,
       "egg": 4.7999544,
       "vegetable": 102.08902,
-      "fruit": 51.969505
+      "fruit": 51.969505,
+      "lifeExpectancy": 76.0587,
+      "energy": 5755.8896
     },
     {
       "code": "GNB",
@@ -3365,7 +3683,9 @@
       "milk": 16.979977,
       "egg": 0.81999886,
       "vegetable": 18.519976,
-      "fruit": 46.42994
+      "fruit": 46.42994,
+      "lifeExpectancy": 64.0849,
+      "energy": 670.24255
     },
     {
       "code": "BRB",
@@ -3386,7 +3706,9 @@
       "milk": 111.63723,
       "egg": 9.8597555,
       "vegetable": 121.416985,
-      "fruit": 103.15745
+      "fruit": 103.15745,
+      "lifeExpectancy": 76.1782,
+      "energy": 23688.12
     },
     {
       "code": "CAF",
@@ -3396,18 +3718,20 @@
       "gdpPerCapita": 596.393,
       "gdpTotal": 3072864239.0950003,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 39.090898800000005,
+        "pig": 3.8631263,
+        "beef": 20.530382,
+        "sheep": 5.209202,
+        "poultry": 2.5498822,
+        "other": 6.9383063,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 14.839659,
+      "egg": 0.72228426,
+      "vegetable": 21.526258,
+      "fruit": 55.046814,
+      "lifeExpectancy": 57.4077,
+      "energy": 349.13443
     },
     {
       "code": "LCA",
@@ -3428,7 +3752,9 @@
       "milk": 69.21575,
       "egg": 5.1296854,
       "vegetable": 51.516838,
-      "fruit": 115.03294
+      "fruit": 115.03294,
+      "lifeExpectancy": 72.6968,
+      "energy": 14475.0
     },
     {
       "code": "COM",
@@ -3449,7 +3775,9 @@
       "milk": 17.04,
       "egg": 1.48,
       "vegetable": 44.56,
-      "fruit": 97.11
+      "fruit": 97.11,
+      "lifeExpectancy": 66.7768,
+      "energy": 1760.384
     },
     {
       "code": "STP",
@@ -3470,7 +3798,9 @@
       "milk": 19.728973,
       "egg": 0.7099631,
       "vegetable": 32.018337,
-      "fruit": 192.14
+      "fruit": 192.14,
+      "lifeExpectancy": 69.7182,
+      "energy": 2879.2422
     },
     {
       "code": "DMA",
@@ -3480,110 +3810,120 @@
       "gdpPerCapita": 8879.6455,
       "gdpTotal": 590771694.7605001,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 112.01482993,
+        "pig": 23.01451,
+        "beef": 11.284183,
+        "sheep": 1.5560638,
+        "poultry": 50.55575,
+        "other": 0.02176313,
+        "fish": 25.58256
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 114.9855,
+      "egg": 9.086107,
+      "vegetable": 153.7674,
+      "fruit": 529.0617,
+      "lifeExpectancy": 71.1325,
+      "energy": 11348.95
     },
     {
       "code": "ABW",
       "nameEn": "Aruba",
       "nameZh": "Aruba",
       "population": 107946,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.353,
+      "energy": 45241.367
     },
     {
       "code": "AIA",
       "nameEn": "Anguilla",
       "nameZh": "Anguilla",
       "population": 14435,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 79.3115,
+      "energy": 0
     },
     {
       "code": "AND",
       "nameEn": "Andorra",
       "nameZh": "Andorra",
       "population": 80869,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 84.0406,
+      "energy": 0
     },
     {
       "code": "ASM",
       "nameEn": "American Samoa",
       "nameZh": "American Samoa",
       "population": 47544,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 72.8518,
+      "energy": 39668.953
     },
     {
       "code": "ATG",
       "nameEn": "Antigua and Barbuda",
       "nameZh": "Antigua and Barbuda",
       "population": 93331,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 150.882218594,
         "pig": 11.848603,
@@ -3596,36 +3936,40 @@
       "milk": 117.19618,
       "egg": 6.0192904,
       "vegetable": 101.07808,
-      "fruit": 241.7015
+      "fruit": 241.7015,
+      "lifeExpectancy": 77.5976,
+      "energy": 33070.297
     },
     {
       "code": "BES",
       "nameEn": "Bonaire Sint Eustatius and Saba",
       "nameZh": "Bonaire Sint Eustatius and Saba",
       "population": 29920,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 77.4355,
+      "energy": 0
     },
     {
       "code": "BHS",
       "nameEn": "Bahamas",
       "nameZh": "Bahamas",
       "population": 399452,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 142.5857172,
         "pig": 32.459023,
@@ -3638,36 +3982,40 @@
       "milk": 130.0261,
       "egg": 13.689589,
       "vegetable": 173.1248,
-      "fruit": 309.8607
+      "fruit": 309.8607,
+      "lifeExpectancy": 74.5518,
+      "energy": 34733.97
     },
     {
       "code": "BLM",
       "nameEn": "Saint Barthelemy",
       "nameZh": "Saint Barthelemy",
       "population": 11112,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 84.2901,
+      "energy": 0
     },
     {
       "code": "BLZ",
       "nameEn": "Belize",
       "nameZh": "Belize",
       "population": 411112,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 85.12958193,
         "pig": 16.009922,
@@ -3680,57 +4028,63 @@
       "milk": 99.58951,
       "egg": 4.779977,
       "vegetable": 79.92961,
-      "fruit": 60.929703
+      "fruit": 60.929703,
+      "lifeExpectancy": 73.5656,
+      "energy": 9946.134
     },
     {
       "code": "BMU",
       "nameEn": "Bermuda",
       "nameZh": "Bermuda",
       "population": 64721,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 82.3089,
+      "energy": 36785.688
     },
     {
       "code": "BRN",
       "nameEn": "Brunei",
       "nameZh": "Brunei",
       "population": 458959,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 75.3266,
+      "energy": 114328.19
     },
     {
       "code": "BTN",
       "nameEn": "Bhutan",
       "nameZh": "Bhutan",
       "population": 786386,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 20.91984075,
         "pig": 2.1499836,
@@ -3743,120 +4097,132 @@
       "milk": 63.519516,
       "egg": 4.279968,
       "vegetable": 63.499516,
-      "fruit": 30.869766
+      "fruit": 30.869766,
+      "lifeExpectancy": 72.9753,
+      "energy": 20020.596
     },
     {
       "code": "COK",
       "nameEn": "Cook Islands",
       "nameZh": "Cook Islands",
       "population": 14244,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 75.2818,
+      "energy": 33176.367
     },
     {
       "code": "CUW",
       "nameEn": "Curacao",
       "nameZh": "Curacao",
       "population": 185437,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.7996,
+      "energy": 0
     },
     {
       "code": "CYM",
       "nameEn": "Cayman Islands",
       "nameZh": "开曼群岛",
       "population": 73055,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 80.3576,
+      "energy": 48111.23
     },
     {
       "code": "ERI",
       "nameEn": "Eritrea",
       "nameZh": "厄立特里亚",
       "population": 3470391,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 68.6239,
+      "energy": 870.7759
     },
     {
       "code": "ESH",
       "nameEn": "Western Sahara",
       "nameZh": "Western Sahara",
       "population": 579734,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 71.385,
+      "energy": 2020.2874
     },
     {
       "code": "FJI",
       "nameEn": "Fiji",
       "nameZh": "斐济",
       "population": 924150,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 91.11,
         "pig": 1.34,
@@ -3869,57 +4235,63 @@
       "milk": 58.78,
       "egg": 12.36,
       "vegetable": 130.21,
-      "fruit": 77.77
+      "fruit": 77.77,
+      "lifeExpectancy": 67.3157,
+      "energy": 10733.714
     },
     {
       "code": "FLK",
       "nameEn": "Falkland Islands",
       "nameZh": "Falkland Islands",
       "population": 3498,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 79.2132,
+      "energy": 114921.12
     },
     {
       "code": "FRO",
       "nameEn": "Faroe Islands",
       "nameZh": "Faroe Islands",
       "population": 54738,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 80.1792,
+      "energy": 65445.973
     },
     {
       "code": "FSM",
       "nameEn": "Micronesia (country)",
       "nameZh": "密克罗尼西亚",
       "population": 112646,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 112.97395049,
         "pig": 18.487373,
@@ -3932,78 +4304,86 @@
       "milk": 10.648487,
       "egg": 5.0992756,
       "vegetable": 39.264423,
-      "fruit": 32.825336
+      "fruit": 32.825336,
+      "lifeExpectancy": 67.1983,
+      "energy": 6079.9126
     },
     {
       "code": "GGY",
       "nameEn": "Guernsey",
       "nameZh": "Guernsey",
       "population": 64043,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 83.2744,
+      "energy": 0
     },
     {
       "code": "GIB",
       "nameEn": "Gibraltar",
       "nameZh": "Gibraltar",
       "population": 38493,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 83.553,
+      "energy": 0
     },
     {
       "code": "GLP",
       "nameEn": "Guadeloupe",
       "nameZh": "Guadeloupe",
       "population": 376518,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 82.0503,
+      "energy": 0.0
     },
     {
       "code": "GRD",
       "nameEn": "Grenada",
       "nameZh": "格林纳达",
       "population": 117094,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 100.7879537,
         "pig": 22.147352,
@@ -4016,78 +4396,86 @@
       "milk": 149.11218,
       "egg": 21.357447,
       "vegetable": 103.16766,
-      "fruit": 160.17085
+      "fruit": 160.17085,
+      "lifeExpectancy": 75.2052,
+      "energy": 13788.242
     },
     {
       "code": "GRL",
       "nameEn": "Greenland",
       "nameZh": "Greenland",
       "population": 55951,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 70.055,
+      "energy": 48129.91
     },
     {
       "code": "GUF",
       "nameEn": "French Guiana",
       "nameZh": "French Guiana",
       "population": 303408,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.9781,
+      "energy": 0.0
     },
     {
       "code": "GUM",
       "nameEn": "Guam",
       "nameZh": "Guam",
       "population": 166522,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 77.2093,
+      "energy": 33430.117
     },
     {
       "code": "GUY",
       "nameEn": "Guyana",
       "nameZh": "圭亚那",
       "population": 826357,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 113.47902945,
         "pig": 7.0099406,
@@ -4100,57 +4488,63 @@
       "milk": 129.2689,
       "egg": 1.5999864,
       "vegetable": 315.7973,
-      "fruit": 345.89706
+      "fruit": 345.89706,
+      "lifeExpectancy": 70.1802,
+      "energy": 19893.844
     },
     {
       "code": "IMN",
       "nameEn": "Isle of Man",
       "nameZh": "Isle of Man",
       "population": 84182,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 80.999,
+      "energy": 0
     },
     {
       "code": "JEY",
       "nameEn": "Jersey",
       "nameZh": "Jersey",
       "population": 103680,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 79.7071,
+      "energy": 0
     },
     {
       "code": "KIR",
       "nameEn": "Kiribati",
       "nameZh": "基里巴斯",
       "population": 132540,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 117.35113928999999,
         "pig": 14.84888,
@@ -4163,15 +4557,17 @@
       "milk": 7.469436,
       "egg": 3.4797375,
       "vegetable": 44.36665,
-      "fruit": 69.69474
+      "fruit": 69.69474,
+      "lifeExpectancy": 66.4731,
+      "energy": 2421.104
     },
     {
       "code": "KNA",
       "nameEn": "Saint Kitts and Nevis",
       "nameZh": "圣基茨和尼维斯",
       "population": 46783,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 125.248388,
         "pig": 16.801735,
@@ -4184,36 +4580,40 @@
       "milk": 53.30378,
       "egg": 3.7981317,
       "vegetable": 36.032276,
-      "fruit": 198.17252
+      "fruit": 198.17252,
+      "lifeExpectancy": 72.1447,
+      "energy": 24521.63
     },
     {
       "code": "LIE",
       "nameEn": "Liechtenstein",
       "nameZh": "Liechtenstein",
       "population": 39622,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 83.6298,
+      "energy": 0
     },
     {
       "code": "MAC",
       "nameEn": "Macao",
       "nameZh": "Macao",
       "population": 713916,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 182.34845795,
         "pig": 57.70951,
@@ -4226,57 +4626,63 @@
       "milk": 41.51965,
       "egg": 23.959797,
       "vegetable": 135.45886,
-      "fruit": 66.15945
+      "fruit": 66.15945,
+      "lifeExpectancy": 83.0749,
+      "energy": 18437.537
     },
     {
       "code": "MAF",
       "nameEn": "Saint Martin (French part)",
       "nameZh": "Saint Martin (French part)",
       "population": 27545,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 80.2238,
+      "energy": 0
     },
     {
       "code": "MCO",
       "nameEn": "Monaco",
       "nameZh": "Monaco",
       "population": 38979,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 86.3724,
+      "energy": 0
     },
     {
       "code": "MDV",
       "nameEn": "Maldives",
       "nameZh": "马尔代夫",
       "population": 526009,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 109.35604345,
         "pig": 0.81997037,
@@ -4289,15 +4695,17 @@
       "milk": 132.89519,
       "egg": 20.169271,
       "vegetable": 195.95293,
-      "fruit": 168.5039
+      "fruit": 168.5039,
+      "lifeExpectancy": 81.0412,
+      "energy": 14354.3
     },
     {
       "code": "MHL",
       "nameEn": "Marshall Islands",
       "nameZh": "马绍尔群岛",
       "population": 38849,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 170.16673778,
         "pig": 31.524576,
@@ -4310,99 +4718,109 @@
       "milk": 50.67521,
       "egg": 16.441956,
       "vegetable": 92.404785,
-      "fruit": 25.40757
+      "fruit": 25.40757,
+      "lifeExpectancy": 66.9454,
+      "energy": 0
     },
     {
       "code": "MNP",
       "nameEn": "Northern Mariana Islands",
       "nameZh": "Northern Mariana Islands",
       "population": 45166,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 78.8075,
+      "energy": 0.0
     },
     {
       "code": "MSR",
       "nameEn": "Montserrat",
       "nameZh": "Montserrat",
       "population": 4440,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.1857,
+      "energy": 23651.912
     },
     {
       "code": "MTQ",
       "nameEn": "Martinique",
       "nameZh": "Martinique",
       "population": 346008,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 82.5651,
+      "energy": 0.0
     },
     {
       "code": "MYT",
       "nameEn": "Mayotte",
       "nameZh": "Mayotte",
       "population": 316028,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.0544,
+      "energy": 0
     },
     {
       "code": "NCL",
       "nameEn": "New Caledonia",
       "nameZh": "New Caledonia",
       "population": 289879,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 112.09652109999999,
         "pig": 28.939102,
@@ -4415,36 +4833,40 @@
       "milk": 129.65598,
       "egg": 8.589733,
       "vegetable": 98.76693,
-      "fruit": 94.467064
+      "fruit": 94.467064,
+      "lifeExpectancy": 78.7658,
+      "energy": 63397.098
     },
     {
       "code": "NIU",
       "nameEn": "Niue",
       "nameZh": "Niue",
       "population": 1841,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 69.9778,
+      "energy": 18197.238
     },
     {
       "code": "NRU",
       "nameEn": "Nauru",
       "nameZh": "瑙鲁",
       "population": 11900,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 135.23233485,
         "pig": 34.961143,
@@ -4457,15 +4879,17 @@
       "milk": 83.16,
       "egg": 11.570521,
       "vegetable": 40.12245,
-      "fruit": 93.72221
+      "fruit": 93.72221,
+      "lifeExpectancy": 62.1094,
+      "energy": 28723.691
     },
     {
       "code": "OWID_AFR",
       "nameEn": "Africa",
       "nameZh": "Africa",
       "population": 1479690254,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 25.923068,
         "pig": 1.7558445,
@@ -4478,15 +4902,17 @@
       "milk": 35.17529,
       "egg": 2.2728367,
       "vegetable": 64.26209,
-      "fruit": 69.25368
+      "fruit": 69.25368,
+      "lifeExpectancy": 63.8428,
+      "energy": 4088.8909
     },
     {
       "code": "OWID_ASI",
       "nameEn": "Asia",
       "nameZh": "Asia",
       "population": 4776659631,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 61.03572552,
         "pig": 15.401421,
@@ -4499,36 +4925,40 @@
       "milk": 64.74404,
       "egg": 11.911537,
       "vegetable": 191.85332,
-      "fruit": 82.416145
+      "fruit": 82.416145,
+      "lifeExpectancy": 74.5661,
+      "energy": 19784.426
     },
     {
       "code": "OWID_CZS",
       "nameEn": "Czechoslovakia",
       "nameZh": "Czechoslovakia",
-      "population": null,
+      "population": 0,
       "gdpPerCapita": 30640.914,
-      "gdpTotal": null,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "OWID_EU27",
-      "nameEn": "European Union (27)",
-      "nameZh": "European Union (27)",
-      "population": null,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "nameEn": "OWID_EU27",
+      "nameZh": "OWID_EU27",
+      "population": 0,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 101.20998987,
         "pig": 39.349995,
@@ -4541,15 +4971,17 @@
       "milk": 232.82999,
       "egg": 13.449999,
       "vegetable": 136.32999,
-      "fruit": 101.35999
+      "fruit": 101.35999,
+      "lifeExpectancy": 0,
+      "energy": 34828.492
     },
     {
       "code": "OWID_EUR",
       "nameEn": "Europe",
       "nameZh": "Europe",
       "population": 746948109,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 100.2743262,
         "pig": 34.826897,
@@ -4562,15 +4994,17 @@
       "milk": 220.83856,
       "egg": 13.95532,
       "vegetable": 137.64789,
-      "fruit": 93.29576
+      "fruit": 93.29576,
+      "lifeExpectancy": 79.0594,
+      "energy": 38484.316
     },
     {
       "code": "OWID_HIC",
       "nameEn": "High-income countries",
       "nameZh": "High-income countries",
       "population": 1261155607,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 116.250809,
         "pig": 31.699808,
@@ -4583,36 +5017,40 @@
       "milk": 203.5217,
       "egg": 14.052418,
       "vegetable": 133.93593,
-      "fruit": 113.35788
+      "fruit": 113.35788,
+      "lifeExpectancy": 81.4353,
+      "energy": 54580.777
     },
     {
       "code": "OWID_KOS",
       "nameEn": "Kosovo",
       "nameZh": "Kosovo",
       "population": 1700039,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 78.0326,
+      "energy": 15811.639
     },
     {
       "code": "OWID_LIC",
       "nameEn": "Low-income countries",
       "nameZh": "Low-income countries",
       "population": 736466395,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 14.06239614,
         "pig": 1.7076123,
@@ -4625,15 +5063,17 @@
       "milk": 34.252842,
       "egg": 0.6795759,
       "vegetable": 33.745014,
-      "fruit": 55.583366
+      "fruit": 55.583366,
+      "lifeExpectancy": 64.9377,
+      "energy": 1133.2091
     },
     {
       "code": "OWID_LMC",
       "nameEn": "Lower-middle-income countries",
       "nameZh": "Lower-middle-income countries",
       "population": 3253459082,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 27.9981373,
         "pig": 2.4267938,
@@ -4646,15 +5086,17 @@
       "milk": 70.81906,
       "egg": 4.1175914,
       "vegetable": 85.53876,
-      "fruit": 65.35689
+      "fruit": 65.35689,
+      "lifeExpectancy": 69.5854,
+      "energy": 5283.799
     },
     {
       "code": "OWID_NAM",
       "nameEn": "North America",
       "nameZh": "North America",
       "population": 608770547,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 119.16536496,
         "pig": 24.65229,
@@ -4667,15 +5109,17 @@
       "milk": 183.09126,
       "egg": 15.953633,
       "vegetable": 106.42004,
-      "fruit": 152.36087
+      "fruit": 152.36087,
+      "lifeExpectancy": 0,
+      "energy": 54906.47
     },
     {
       "code": "OWID_OCE",
       "nameEn": "Oceania",
       "nameZh": "Oceania",
       "population": 45563135,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 116.214447,
         "pig": 19.97951,
@@ -4688,15 +5132,17 @@
       "milk": 144.95016,
       "egg": 6.2856445,
       "vegetable": 127.70022,
-      "fruit": 116.89839
+      "fruit": 116.89839,
+      "lifeExpectancy": 79.1464,
+      "energy": 41636.957
     },
     {
       "code": "OWID_SAM",
       "nameEn": "South America",
       "nameZh": "South America",
       "population": 433024223,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 97.73807244,
         "pig": 14.964857,
@@ -4709,36 +5155,40 @@
       "milk": 141.34395,
       "egg": 12.630699,
       "vegetable": 56.114708,
-      "fruit": 107.08902
+      "fruit": 107.08902,
+      "lifeExpectancy": 0,
+      "energy": 17587.898
     },
     {
       "code": "OWID_SDN",
       "nameEn": "Sudan (former)",
       "nameZh": "Sudan (former)",
-      "population": null,
+      "population": 0,
       "gdpPerCapita": 2405.275,
-      "gdpTotal": null,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "OWID_UMC",
       "nameEn": "Upper-middle-income countries",
       "nameZh": "Upper-middle-income countries",
       "population": 2811308942,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 93.72336495,
         "pig": 25.503016,
@@ -4751,78 +5201,86 @@
       "milk": 66.51239,
       "egg": 18.513987,
       "vegetable": 251.09724,
-      "fruit": 107.8264
+      "fruit": 107.8264,
+      "lifeExpectancy": 75.8812,
+      "energy": 25401.498
     },
     {
       "code": "OWID_USS",
       "nameEn": "USSR",
       "nameZh": "USSR",
-      "population": null,
+      "population": 0,
       "gdpPerCapita": 19354.709,
-      "gdpTotal": null,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "OWID_YGS",
       "nameEn": "Yugoslavia",
       "nameZh": "Yugoslavia",
-      "population": null,
+      "population": 0,
       "gdpPerCapita": 19352.385,
-      "gdpTotal": null,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "PLW",
       "nameEn": "Palau",
       "nameZh": "帕劳",
       "population": 17751,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 69.269,
+      "energy": 0
     },
     {
       "code": "PNG",
       "nameEn": "Papua New Guinea",
       "nameZh": "巴布亚新几内亚",
       "population": 10389638,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 65.57000943,
         "pig": 8.680001,
@@ -4835,15 +5293,17 @@
       "milk": 6.290001,
       "egg": 0.44000006,
       "vegetable": 51.38001,
-      "fruit": 211.70003
+      "fruit": 211.70003,
+      "lifeExpectancy": 66.134,
+      "energy": 2873.5806
     },
     {
       "code": "PYF",
       "nameEn": "French Polynesia",
       "nameZh": "French Polynesia",
       "population": 281125,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 148.98734489999998,
         "pig": 19.04966,
@@ -4856,78 +5316,86 @@
       "milk": 138.14754,
       "egg": 11.509795,
       "vegetable": 139.87752,
-      "fruit": 76.648636
+      "fruit": 76.648636,
+      "lifeExpectancy": 84.0698,
+      "energy": 19590.139
     },
     {
       "code": "REU",
       "nameEn": "Reunion",
       "nameZh": "Reunion",
       "population": 874883,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 83.5472,
+      "energy": 0.0
     },
     {
       "code": "SDN",
       "nameEn": "Sudan",
       "nameZh": "苏丹",
       "population": 50042800,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 19.26856643,
+        "pig": 0.0,
+        "beef": 7.156896,
+        "sheep": 6.6063657,
+        "poultry": 1.6041319,
+        "other": 3.0089338,
+        "fish": 0.89223903
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 85.48409,
+      "egg": 1.19598,
+      "vegetable": 68.73089,
+      "fruit": 59.827473,
+      "lifeExpectancy": 66.331,
+      "energy": 1347.1267
     },
     {
       "code": "SHN",
       "nameEn": "Saint Helena",
       "nameZh": "Saint Helena",
       "population": 5316,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.7869,
+      "energy": 8330.702
     },
     {
       "code": "SLB",
       "nameEn": "Solomon Islands",
       "nameZh": "所罗门群岛",
       "population": 800014,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 46.1097685455,
         "pig": 4.03998,
@@ -4940,99 +5408,109 @@
       "milk": 9.9199505,
       "egg": 0.8399958,
       "vegetable": 11.199944,
-      "fruit": 32.37984
+      "fruit": 32.37984,
+      "lifeExpectancy": 70.5277,
+      "energy": 1597.4872
     },
     {
       "code": "SMR",
       "nameEn": "San Marino",
       "nameZh": "San Marino",
       "population": 33761,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 85.7062,
+      "energy": 0
     },
     {
       "code": "SOM",
       "nameEn": "Somalia",
       "nameZh": "索马里",
       "population": 18358622,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 12.791434889000001,
+        "pig": 0.009885189,
+        "beef": 3.12372,
+        "sheep": 4.4087944,
+        "poultry": 0.78093,
+        "other": 2.7876232,
+        "fish": 1.6804821
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 100.631226,
+      "egg": 0.31632605,
+      "vegetable": 19.197037,
+      "fruit": 15.1045685,
+      "lifeExpectancy": 58.8158,
+      "energy": 360.80646
     },
     {
       "code": "SPM",
       "nameEn": "Saint Pierre and Miquelon",
       "nameZh": "Saint Pierre and Miquelon",
       "population": 5707,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.7578,
+      "energy": 52049.77
     },
     {
       "code": "SSD",
       "nameEn": "South Sudan",
       "nameZh": "南苏丹",
       "population": 11483370,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 24.4381199,
+        "pig": 0.0,
+        "beef": 11.951706,
+        "sheep": 3.8518755,
+        "poultry": 4.723251,
+        "other": 0.9109834,
+        "fish": 3.000304
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 197.50517,
+      "egg": 0.0,
+      "vegetable": 48.08408,
+      "fruit": 40.647682,
+      "lifeExpectancy": 57.6174,
+      "energy": 620.0977
     },
     {
       "code": "SUR",
       "nameEn": "Suriname",
       "nameZh": "苏里南",
       "population": 628892,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 65.139794176,
         "pig": 7.519976,
@@ -5045,78 +5523,86 @@
       "milk": 47.72985,
       "egg": 5.769982,
       "vegetable": 58.369816,
-      "fruit": 62.9798
+      "fruit": 62.9798,
+      "lifeExpectancy": 73.631,
+      "energy": 15601.472
     },
     {
       "code": "SXM",
       "nameEn": "Sint Maarten (Dutch part)",
       "nameZh": "Sint Maarten (Dutch part)",
       "population": 42775,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 76.371,
+      "energy": 0
     },
     {
       "code": "TCA",
       "nameEn": "Turks and Caicos Islands",
       "nameZh": "Turks and Caicos Islands",
       "population": 46221,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 78.0077,
+      "energy": 41046.25
     },
     {
       "code": "TKL",
       "nameEn": "Tokelau",
       "nameZh": "Tokelau",
       "population": 2424,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 77.0512,
+      "energy": 0
     },
     {
       "code": "TLS",
       "nameEn": "East Timor",
       "nameZh": "东帝汶",
       "population": 1384292,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 38.78994507,
         "pig": 12.119983,
@@ -5129,15 +5615,17 @@
       "milk": 12.589982,
       "egg": 2.4099967,
       "vegetable": 27.82996,
-      "fruit": 16.419977
+      "fruit": 16.419977,
+      "lifeExpectancy": 67.6894,
+      "energy": 1940.1028
     },
     {
       "code": "TON",
       "nameEn": "Tonga",
       "nameZh": "汤加",
       "population": 104613,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 185.50694719999998,
         "pig": 32.895912,
@@ -5150,15 +5638,17 @@
       "milk": 52.103523,
       "egg": 3.6895413,
       "vegetable": 261.71747,
-      "fruit": 97.11793
+      "fruit": 97.11793,
+      "lifeExpectancy": 72.8947,
+      "energy": 8104.585
     },
     {
       "code": "TUV",
       "nameEn": "Tuvalu",
       "nameZh": "图瓦卢",
       "population": 9837,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 140.8960773,
         "pig": 19.975418,
@@ -5171,162 +5661,178 @@
       "milk": 25.915134,
       "egg": 10.980989,
       "vegetable": 72.294846,
-      "fruit": 111.736565
+      "fruit": 111.736565,
+      "lifeExpectancy": 67.1049,
+      "energy": 0.0
     },
     {
       "code": "UN_AFR",
       "nameEn": "Africa (UN)",
       "nameZh": "Africa (UN)",
       "population": 1480770518,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "UN_ASI",
       "nameEn": "Asia (UN)",
       "nameZh": "Asia (UN)",
       "population": 4778004486,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "UN_EUR",
       "nameEn": "Europe (UN)",
       "nameZh": "Europe (UN)",
       "population": 745602870,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "UN_LAC",
       "nameEn": "Latin America and the Caribbean (UN)",
       "nameZh": "Latin America and the Caribbean (UN)",
       "population": 658891516,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "UN_NAM",
       "nameEn": "Northern America (UN)",
       "nameZh": "Northern America (UN)",
       "population": 382902739,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "UN_OCE",
       "nameEn": "Oceania (UN)",
       "nameZh": "Oceania (UN)",
       "population": 45562792,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 0,
+      "energy": 0
     },
     {
       "code": "VAT",
       "nameEn": "Vatican",
       "nameZh": "Vatican",
       "population": 501,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 82.9848,
+      "energy": 0
     },
     {
       "code": "VCT",
       "nameEn": "Saint Vincent and the Grenadines",
       "nameZh": "圣文森特和格林纳丁斯",
       "population": 101331,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 138.50496040000002,
         "pig": 18.637976,
@@ -5339,57 +5845,63 @@
       "milk": 131.44574,
       "egg": 4.819477,
       "vegetable": 50.22455,
-      "fruit": 128.15608
+      "fruit": 128.15608,
+      "lifeExpectancy": 71.2301,
+      "energy": 11156.717
     },
     {
       "code": "VGB",
       "nameEn": "British Virgin Islands",
       "nameZh": "British Virgin Islands",
       "population": 39009,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 77.2758,
+      "energy": 20204.906
     },
     {
       "code": "VIR",
       "nameEn": "United States Virgin Islands",
       "nameZh": "United States Virgin Islands",
       "population": 85712,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 75.4724,
+      "energy": 113323.99
     },
     {
       "code": "VUT",
       "nameEn": "Vanuatu",
       "nameZh": "瓦努阿图",
       "population": 320422,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 71.01734263,
         "pig": 11.819557,
@@ -5402,36 +5914,40 @@
       "milk": 26.539007,
       "egg": 3.529868,
       "vegetable": 121.18546,
-      "fruit": 138.49481
+      "fruit": 138.49481,
+      "lifeExpectancy": 71.4769,
+      "energy": 3999.6335
     },
     {
       "code": "WLF",
       "nameEn": "Wallis and Futuna",
       "nameZh": "Wallis and Futuna",
       "population": 11394,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
-        "total": null,
-        "pig": null,
-        "beef": null,
-        "sheep": null,
-        "poultry": null,
-        "other": null,
-        "fish": null
+        "total": 0,
+        "pig": 0,
+        "beef": 0,
+        "sheep": 0,
+        "poultry": 0,
+        "other": 0,
+        "fish": 0
       },
-      "milk": null,
-      "egg": null,
-      "vegetable": null,
-      "fruit": null
+      "milk": 0,
+      "egg": 0,
+      "vegetable": 0,
+      "fruit": 0,
+      "lifeExpectancy": 78.6286,
+      "energy": 0
     },
     {
       "code": "WSM",
       "nameEn": "Samoa",
       "nameZh": "萨摩亚",
       "population": 216673,
-      "gdpPerCapita": null,
-      "gdpTotal": null,
+      "gdpPerCapita": 0,
+      "gdpTotal": 0,
       "meat": {
         "total": 155.6606594,
         "pig": 18.00892,
@@ -5444,7 +5960,9 @@
       "milk": 49.797012,
       "egg": 1.4799112,
       "vegetable": 22.898626,
-      "fruit": 176.51941
+      "fruit": 176.51941,
+      "lifeExpectancy": 71.6982,
+      "energy": 6540.6587
     }
   ]
 }
