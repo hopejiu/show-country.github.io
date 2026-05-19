@@ -12,7 +12,7 @@ from datetime import datetime
 
 # 数据文件路径
 DATA_DIR = 'data'
-OUTPUT_FILE = 'web/data/processed-data.json'
+OUTPUT_FILE = 'assets/processed-data.json'
 COUNTRY_MAPPING_FILE = 'country_mapping.json'
 
 # 消费数据回退年份（优先2023，然后2022、2021、2020）

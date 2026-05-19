@@ -85,7 +85,7 @@ class TestDataProcessing:
     
     def test_processed_data_format(self):
         """测试处理后的数据格式"""
-        output_file = "web/data/processed-data.json"
+        output_file = "assets/processed-data.json"
         if os.path.exists(output_file):
             with open(output_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
