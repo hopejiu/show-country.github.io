@@ -44,7 +44,7 @@ $(document).ready(function() {
 // ========== 数据加载 ==========
 
 function loadData() {
-    $.getJSON('data/processed-data.json', function(data) {
+    $.getJSON('web/data/processed-data.json', function(data) {
         allData = data.countries;
         console.log('数据加载成功:', allData.length, '个国家');
         initMap();
@@ -148,7 +148,7 @@ function updateMap() {
 }
 
 function initMap() {
-    $.getJSON('lib/world.json', function(worldJson) {
+    $.getJSON('web/lib/world.json', function(worldJson) {
         echarts.registerMap('world', worldJson);
         mapChart = echarts.init(document.getElementById('map-chart'));
 

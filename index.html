@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人均消费数据展示面板</title>
+    
+    <!-- DataTables CSS (jsDelivr, 中国大陆友好) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@2.0.7/css/dataTables.dataTables.min.css">
+    
+    <!-- DataTables ColReorder CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-colreorder@2.0.0/css/colReorder.dataTables.min.css">
+    
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="web/css/style.css">
+</head>
+<body>
+    <!-- 顶部标题 -->
+    <header class="header">
+        <div class="container">
+            <h1>🌍 人均消费数据展示面板</h1>
+            <p class="subtitle">展示各国人均GDP、人口及各类食品人均消费量数据</p>
+            <p class="note">数据基于购买力平价（PPP），单位为国际元（2011年价格）</p>
+        </div>
+    </header>
+
+    <!-- 标签页导航 -->
+    <nav class="tabs">
+        <div class="container">
+            <button class="tab-button active" data-tab="map">🗺️ 地图展示</button>
+            <button class="tab-button" data-tab="table">📊 数据表格</button>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="main-content">
+        <div class="container">
+            <!-- 地图展示标签页 -->
+            <div id="map-tab" class="tab-content active">
+                <div class="map-container">
+                    <div class="map-toolbar">
+                        <label>切换指标：</label>
+                        <select id="map-indicator">
+                            <option value="gdpPerCapita">💰 人均GDP (国际元)</option>
+                            <option value="gdpTotal">💎 GDP总量 (国际元)</option>
+                            <option value="population">👥 人口</option>
+                            <option value="meat.total">🥩 肉类总量</option>
+                            <option value="meat.pig">🐷 猪肉</option>
+                            <option value="meat.beef">🐂 牛肉</option>
+                            <option value="meat.sheep">🐑 羊肉</option>
+                            <option value="meat.poultry">🐔 禽肉</option>
+                            <option value="meat.other">🦌 其他肉类</option>
+                            <option value="meat.fish">🐟 水产</option>
+                            <option value="milk">🥛 奶类</option>
+                            <option value="egg">🥚 蛋类</option>
+                            <option value="vegetable">🥬 蔬菜</option>
+                            <option value="fruit">🍎 水果</option>
+                            <option value="lifeExpectancy">⏳ 预期寿命 (岁)</option>
+                            <option value="energy">⚡ 人均能源 (kWh/人/年)</option>
+                        </select>
+                    </div>
+                    <div id="map-chart" style="width: 100%; height: 600px;"></div>
+                </div>
+            </div>
+
+            <!-- 数据表格标签页 -->
+            <div id="table-tab" class="tab-content">
+                <div class="table-layout">
+                    <!-- 左侧筛选面板 -->
+                    <aside class="filter-panel" id="filter-panel">
+                        <div class="filter-header">
+                            <h3>🔍 国家筛选</h3>
+                            <button id="toggle-filter" class="btn btn-toggle" title="隐藏筛选面板">◀</button>
+                            <input type="text" id="country-search" placeholder="搜索国家...">
+                        </div>
+                        
+                        <div class="filter-buttons">
+                            <button id="select-all" class="btn">全选</button>
+                            <button id="deselect-all" class="btn">全不选</button>
+                            <button id="invert-selection" class="btn">反选</button>
+                            <button id="show-selected" class="btn btn-primary">只显示被选中的</button>
+                        </div>
+                        
+                        <div class="country-list" id="country-list">
+                            <!-- 国家复选框将通过JavaScript动态生成 -->
+                        </div>
+                    </aside>
+
+                    <!-- 右侧数据表格 -->
+                    <div class="table-container">
+                        <div class="table-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+                            <button id="show-filter" class="btn btn-toggle" title="显示筛选面板" style="display: none;">▶ 筛选</button>
+                            <button id="export-csv" class="btn btn-primary">📥 导出CSV</button>
+                        </div>
+                        <table id="data-table" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>🌍 国家/地区</th>
+                                    <th>👥 人口</th>
+                                    <th>💰 人均GDP</th>
+                                    <th>💎 GDP总量</th>
+                                    <th>🥩 肉类总量</th>
+                                    <th>🐷 猪肉</th>
+                                    <th>🐂 牛肉</th>
+                                    <th>🐑 羊肉</th>
+                                    <th>🐔 禽肉</th>
+                                    <th>🦌 其他肉类</th>
+                                    <th>🐟 水产</th>
+                                    <th>🥛 奶类</th>
+                                    <th>🥚 蛋类</th>
+                                    <th>🥬 蔬菜</th>
+                                    <th>🍎 水果</th>
+                                    <th>⏳ 预期寿命</th>
+                                    <th>⚡ 人均能源</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部说明 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="data-source">
+                    <h4>数据来源</h4>
+                    <ul>
+                        <li>GDP: Bolt and van Zanden – Maddison Project Database 2023</li>
+                        <li>人口: United Nations – World Population Prospects (2024)</li>
+                        <li>食品消费: Food and Agriculture Organization of the United Nations (2025)</li>
+                    </ul>
+                </div>
+                <div class="data-note">
+                    <h4>数据说明</h4>
+                    <ul>
+                        <li>GDP数据基于购买力平价（PPP），单位为国际元（2011年价格）</li>
+                        <li>消费数据单位为 kg/人/年</li>
+                        <li>数据缺失显示为"—"</li>
+                        <li>最后更新: 2023年（GDP为2022年）</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (jsDelivr, 中国大陆友好) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    
+    <!-- DataTables -->
+    <script src="https://cdn.jsdelivr.net/npm/datatables.net@2.0.7/js/dataTables.min.js"></script>
+    
+    <!-- DataTables ColReorder -->
+    <script src="https://cdn.jsdelivr.net/npm/datatables.net-colreorder@2.0.0/js/dataTables.colReorder.min.js"></script>
+    
+    <!-- ECharts -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    
+    <!-- 应用脚本 -->
+    <script src="web/js/app.js"></script>
+</body>
+</html>
