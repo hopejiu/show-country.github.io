@@ -82,6 +82,39 @@ function initTabs() {
 
 // ========== 地图 ==========
 
+// 数据英文名 → GeoJSON地图名映射（处理缩写/名称差异）
+var GEO_NAME_MAP = {
+    'South Korea': 'Korea',
+    'North Korea': 'Dem. Rep. Korea',
+    'Bosnia and Herzegovina': 'Bosnia and Herz.',
+    'Central African Republic': 'Central African Rep.',
+    'Dominican Republic': 'Dominican Rep.',
+    'Equatorial Guinea': 'Eq. Guinea',
+    'Laos': 'Lao PDR',
+    'North Macedonia': 'Macedonia',
+    'South Sudan': 'S. Sudan',
+    'Solomon Islands': 'Solomon Is.',
+    'East Timor': 'Timor-Leste',
+    "Cote d'Ivoire": "Côte d'Ivoire",
+    'Eswatini': 'Swaziland',
+    'Czechia': 'Czech Rep.',
+    'Antigua and Barbuda': 'Antigua and Barb.',
+    'Saint Vincent and the Grenadines': 'St. Vin. and Gren.',
+    'Democratic Republic of Congo': 'Dem. Rep. Congo',
+    'Western Sahara': 'W. Sahara',
+    'Cayman Islands': 'Cayman Is.',
+    'Falkland Islands': 'Falkland Is.',
+    'Turks and Caicos Islands': 'Turks and Caicos Is.',
+    'Faroe Islands': 'Faeroe Is.',
+    'French Polynesia': 'Fr. Polynesia',
+    'Northern Mariana Islands': 'N. Mariana Is.',
+    'United States Virgin Islands': 'U.S. Virgin Is.',
+    'Curacao': 'Curaçao',
+    'Saint Pierre and Miquelon': 'St. Pierre and Miquelon',
+    'Micronesia (country)': 'Micronesia',
+    'Sao Tome and Principe': 'São Tomé and Principe'
+};
+
 // 指标名称映射（字段路径 → 中文名）
 var INDICATOR_META = {
     gdpPerCapita: { name: '💰 人均GDP', unit: '国际元', max: 80000 },
@@ -131,10 +164,9 @@ function updateMap() {
         .filter(function(c) { return c.code !== 'OWID_WRL'; })
         .map(function(c) {
             var val = getMapValue(c, currentMapIndicator);
-            // null/undefined 视为 0
-            return { name: c.nameEn, value: (val == null ? 0 : val), countryData: c };
+            var geoName = GEO_NAME_MAP[c.nameEn] || c.nameEn;
+            return { name: geoName, value: (val == null ? 0 : val), countryData: c };
         });
-    // 10~90分位数，忽略0值
     var values = data.map(function(d) { return d.value; }).filter(function(v) { return v > 0; });
     var minVal = calcPercentile(values, 10) || 0;
     var maxVal = calcPercentile(values, 90) || meta.max;
@@ -159,7 +191,8 @@ function initMap() {
             .filter(function(c) { return c.code !== 'OWID_WRL'; })
             .map(function(c) {
                 var val = getMapValue(c, currentMapIndicator);
-                return { name: c.nameEn, value: (val == null ? 0 : val), countryData: c };
+                var geoName = GEO_NAME_MAP[c.nameEn] || c.nameEn;
+                return { name: geoName, value: (val == null ? 0 : val), countryData: c };
             });
         var values = data.map(function(d) { return d.value; }).filter(function(v) { return v > 0; });
         var minVal = calcPercentile(values, 10) || 0;
