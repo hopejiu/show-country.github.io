@@ -1,0 +1,31 @@
+{
+  "name": "show-country",
+  "version": "1.0.0",
+  "private": true,
+  "description": "人均消费数据展示面板 - 各国家和地区人均GDP、人口及食品消费数据可视化",
+  "keywords": [
+    "data-visualization",
+    "gdp",
+    "consumption",
+    "echarts",
+    "datatables"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "process-data": "python scripts/process_data.py"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "datatables.net": "2.0.7",
+    "datatables.net-colreorder": "2.1.2",
+    "datatables.net-dt": "2.0.7",
+    "echarts": "5.5.0",
+    "jquery": "3.7.1"
+  }
+}

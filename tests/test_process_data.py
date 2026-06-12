@@ -8,8 +8,10 @@ import sys
 import json
 import pytest
 
-# 添加项目根目录到路径
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# 添加项目根目录和 scripts 目录到路径
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, _project_root)
+sys.path.insert(0, os.path.join(_project_root, 'scripts'))
 
 from process_data import (
     read_csv_file_single,
@@ -85,7 +87,7 @@ class TestDataProcessing:
     
     def test_processed_data_format(self):
         """测试处理后的数据格式"""
-        output_file = "assets/processed-data.json"
+        output_file = "src/data/processed-data.json"
         if os.path.exists(output_file):
             with open(output_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
